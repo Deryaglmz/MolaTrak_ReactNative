@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "MolaTrak",
+    "slug": "molatrak",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.biruni.molatrak",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.biruni.molatrak"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a7b5d515-1ae6-4bdb-aeb2-45f1ab0dd62a"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "cli": {
+    "version": ">= 7.6.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.production.com",
+        "EXPO_PUBLIC_DATABASE_URL": "https://molatrack.firebaseio.com",
+        "EXPO_PUBLIC_PROJECT_ID": "molatrack",
+        "EXPO_PUBLIC_STORAGE_BUCKET": "molatrack.appspot.com",
+        "EXPO_PUBLIC_MESSAGING_SENDER_ID": "232337839111",
+        "EXPO_PUBLIC_APP_ID": "1:232337839111:web:c6f7eefa2950748d6806a2"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_KEY": "AIzaSyDQ5551-f8Kiua7kI9aotRdEheuR5Rv8cE",
+        "EXPO_PUBLIC_API_URL": "https://api.production.com",
+        "EXPO_PUBLIC_DATABASE_URL": "https://molatrack.firebaseio.com",
+        "EXPO_PUBLIC_PROJECT_ID": "molatrack",
+        "EXPO_PUBLIC_STORAGE_BUCKET": "molatrack.appspot.com",
+        "EXPO_PUBLIC_MESSAGING_SENDER_ID": "232337839111",
+        "EXPO_PUBLIC_APP_ID": "1:232337839111:web:c6f7eefa2950748d6806a2"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_API_KEY": "AIzaSyDQ5551-f8Kiua7kI9aotRdEheuR5Rv8cE",
+        "EXPO_PUBLIC_API_URL": "https://api.production.com",
+        "EXPO_PUBLIC_DATABASE_URL": "https://molatrack.firebaseio.com",
+        "EXPO_PUBLIC_PROJECT_ID": "molatrack",
+        "EXPO_PUBLIC_STORAGE_BUCKET": "molatrack.appspot.com",
+        "EXPO_PUBLIC_MESSAGING_SENDER_ID": "232337839111",
+        "EXPO_PUBLIC_APP_ID": "1:232337839111:web:c6f7eefa2950748d6806a2"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

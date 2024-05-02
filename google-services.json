@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "232337839111",
+    "project_id": "molatrack",
+    "storage_bucket": "molatrack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232337839111:android:3aa247ab5d71e71a6806a2",
+        "android_client_info": {
+          "package_name": "com.biruni.molatrak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJKf9FF8td8gEf9mq3SVN-AMftA_I5hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
